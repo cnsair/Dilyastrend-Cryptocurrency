@@ -1,0 +1,567 @@
+body
+{
+	background-color: #DDDDDD;
+	background-image: none;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 12px !important;
+	/*font-family: sans-serif, helvetica, arial, courier new !important;*/
+
+}
+.hd
+{
+	background-color: #FFF; 
+	border: 1px solid; 
+	border-color: #ccc;
+	margin-top: 5px;
+}
+.salute
+{
+	 padding: 10px; 
+	 color: #000000;
+	/* background-color: #fff;*/
+	 /*border: 2px solid #FF6600;
+	 box-shadow: 5px 5px 5px 5px#FF6600;*/
+}
+.hed{
+	background-color: #fff;
+	padding: 5px 5px;
+ 	margin-bottom: 10px;
+ 	padding-bottom: 10px;
+}
+.navColor{
+	background-color: #f86f4d;
+}
+
+/* for sticky top or fixed top */
+#sticky {
+    /*padding: 0.5ex;
+    width: 600px;
+    background-color: #333;
+    color: #fff;
+    font-size: 2em;
+    border-radius: 0.5ex;*/
+    /*z-index: 3; position: fixed; left: 10; top: 10; height: 50px;*/
+}
+
+#sticky.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 10;
+    z-index: 0;
+    border-radius: 0 0 0.5em 0.5em;
+    right: 7px; 
+    top: 10px; 
+    height: 10px;
+    transition: all 0.5s;
+}
+/*=============================== */
+
+#the-sticky-div.sticky {
+     position: fixed;
+     top: 10;
+     width: 30%;
+  }
+
+/* =================================*/
+
+img.Image{
+	max-width: 60%; display: block;
+    max-height: 60%;	
+}
+div#Image { width: 600px; }
+
+
+/* #####################################
+	tp arrows from revolution slider ends
+######################################### */
+
+/* ========== FOR CAROUSEL FADE ================*/
+
+/*
+  Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+  CSS from:       http://codepen.io/transportedman/pen/NPWRGq
+  and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb 
+*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+/* ========== FOR CAROUSEL FADE ================*/
+
+
+.signin-img{
+	background-image: url('../img/new-01.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #FFF;
+}
+.advertz{
+	border: 2px solid;
+	border-color: #0000FF;
+
+}
+.pushdown
+{
+	margin-top:85px;
+	font-size: 13px !important;
+}
+.table
+{
+	border-width: 1px;
+	border-radius: 10px;
+	border-color: #000077;	
+}
+.logo
+{
+	float: left;
+	margin-top: -12px;
+	width: 120px;
+}
+.head
+{
+	background-color: #006633;
+}
+.head1
+{
+	font-size: 13px !important;
+}
+a.head1
+{
+	font-size: 13px !important;
+}
+
+.navbar-inverse {
+  background-color: #fff!important;
+  border-color: #080808;
+  background-image: url('../img/04.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar-inverse .navbar-brand {
+  color: #9d9d9d !important;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+  color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #FF9900 !important;
+  font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #FF3300 !important;
+  font-size: 16px;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #080808;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.under
+{
+	color: #FF9900;
+	font-size:16px;
+	text-align: right;
+	float: left;
+	padding-left: 10px;
+}
+.under:hover
+{
+	color: #FF3300;
+	text-decoration: none;
+	float: left;
+}
+.side
+{
+	padding-left: 1060px;
+	color: #FF9900;
+	font-size: 16px;
+	float: left;
+}
+.side:hover
+{
+	padding-left: 1060px;
+	color: #FF3300;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.img
+{
+	height: 500px;
+	width: 600px;
+}
+.img2
+{
+	height: 400px;
+	width: 400px;
+}
+.footer
+{
+	background-color: #333333;
+	margin-top: 20px;
+	font-size: 11px !important;
+}
+.footer1
+{
+	color: #FF9900;
+}
+a.options
+{
+	font-size: 11px;
+	color: #FF9900;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 30px;
+}
+a.options:hover
+{
+	font-size: 11px;
+	color: #FF3300;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 30px;
+}
+.reg
+{
+	color:  #FF9900;
+}
+a.reg:hover
+{
+	color:  #FF3300;
+	text-decoration: none;
+}
+.echo{
+	float: left;
+}
+.bluehead
+{
+    color: #fff;
+    background-color: #337ab7 !important;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+.rightform
+{
+	background-image: url('../PNGs/latest.png');
+	background-color: #f7d157;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0px;
+	color: #fff;
+	padding: 20px 20px;
+	opacity: 0.9;
+}
+.rightform input[type=submit]
+{
+	padding: 10px 30px;
+	background:  #FF9900; 
+}
+.rightform input[type=text]
+{
+	color: #000000 !important;
+}
+.rightform input[type=select]
+{
+	color: #000000 !important;
+}
+/* for singin.php starts here */
+.rightform3
+{
+	background-image: url('../PNGs/latest.png');
+	background-color: #f1d84b;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0px;
+	color: #fff;
+	padding: 20px 20px;
+	opacity: 0.9;
+}
+.rightform3 input[type=submit]
+{
+	padding: 10px 30px;
+	background:  #FF9900; 
+}
+.rightform3 input[type=text]
+{
+	color: #000000 !important;
+}
+.rightform3 input[type=select]
+{
+	color: #000000 !important;
+}
+.sumer
+{
+	color:#000 !important;
+	text-decoration: none;
+}
+/* for singin.php ends here */
+.mar-top
+{
+	margin-top: px;
+	margin-right: px;
+	height: 400px;
+}
+.img3
+{
+	height: 540px;
+}
+
+a.list-group-item.active
+{
+	background: #FF9900;
+}
+a.list-group-item.active:hover
+{
+	background: #FF3300;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+text-shadow: 0 0px 0 #286090;
+background-image: -webkit-linear-gradient(top, #337AB7 0%, #2B669A 100%);
+background-image: -o-linear-gradient(top, #337AB7 0%, #2B669A 100%);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#337AB7), to(#2B669A));
+background-image: linear-gradient(to bottom, #337AB7 0%, #2B669A 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2b669a', GradientType=0);
+background-repeat: repeat-x;
+border-color: #FF9900;
+/*background: red !important;*/
+}
+.connect1
+{
+	margin-left:-400px ;
+	height: 350px;
+}
+.connect2
+{
+	margin-left: 0px;
+	margin-left: 0px;
+	height: 600px;
+}
+.dashboard
+{
+	border: 1px solid;
+	box-shadow: 5px 5px 5px #888888;
+	border-radius: 0px;
+	border-color: #ccc;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	margin-left: 5px;
+	margin-top: 5px;
+	color: #006633;
+	background-color: #fff;
+	font-size: 9px;
+	float: left;
+}
+.dashboard:hover
+{
+	border: 1px solid;
+	box-shadow: 5px 5px 5px #888888;
+	border-radius: 0px;
+	border-color: #ccc;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-color: red!important;
+	background-color: #fff;
+	text-decoration: none;
+	font-size: 10px;
+}
+a.ancrodec
+{
+	text-decoration: none;
+	color: #FF9900 ;
+	font-size: 11px !important; 
+}
+a.ancrodec:hover
+{
+	text-decoration: none;
+	color: #ff3300;
+	font-size: 11px !important; 
+}
+.ancrodec
+{
+	color: #000033;
+}
+.gallery
+{
+	height: 400px;
+	width: 500px;
+}
+.note
+{
+	border: 1px solid red;
+	color: #FF0000;
+}
+.welcome
+{
+	color: #FF9900;
+}
+.welcome span
+{
+	color: #ff3300;
+}
+.welcomespan
+{
+	font-size: 20px;
+}
+a.welcome
+{
+	color: #FF9900;
+	margin-top: -10px;
+}
+.welcome2
+{
+	color: #000066;
+	margin-top: none;
+	font-size: 30px;
+}
+
+.welcome3
+{
+	color: #000066;
+	margin-top: none;
+	font-size: 20px;
+}
+.warning
+{
+	background-color:#FFFFFF; 
+	color:#FF0000; 
+	font-size:12px; 
+	border:1px solid;
+	border-color: #ccc;
+}
+.warning span
+{
+	font-size: 12px bold;
+}
+.rightform2
+{
+	background-image: url('../PNGs/latest.png');
+	background-color: #2B669A;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0px;
+	color: #fff;
+	padding: 20px 20px;
+	opacity: 0.9;
+}
+.rightform2 input[type=submit]
+{
+	padding: 10px 30px;
+	background: #FF9900; 
+}
+.rightform2 input[type=text]
+{
+	color: #000000 !important;
+}
+.rightform2 input[type=select]
+{
+	color: #000000 !important;
+}
+.imgcon
+{
+	height: 120px;
+	width: 110px;
+}
+.broadcastborder
+{
+	border: 1px solid;
+	border-color: #FF9900; 
+	border-radius:10px;
+}
+.echoaverage
+{
+	color: #FF0000;
+	font-size: 25px;
+	/*border: 1px solid blue;
+*/	border-width: 2px;
+}
+
+/* SENTIR BEGINS HERE */
+
+
+.social-icon 							{margin: 30px 0 15px;}
+.social-icon i 							{margin: 0 5px;}
+.user-info .social-avatar.absolute 		{top: -40px;}
+.user-card-sm 							{position: relative;}
+.user-card-sm .media-object {
+	width: 50px;
+	height: 50px;
+}
+
+
+
+/* SENTIR ENDS HERE */
+

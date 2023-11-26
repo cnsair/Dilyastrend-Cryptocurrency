@@ -1,0 +1,183 @@
+.verticalLine {
+    width: 20%;
+    height: 10px;
+    background: rgb(255, 0, 0);
+    border-radius: 5px;
+    margin-left: 40%; 
+}
+.verticalLine2 {
+    width: 30%;
+    height: 5px;
+    background: rgb(255, 0, 0);
+    border-radius: 5px;
+    margin: 5% 0 5% 0; 
+}
+.head-marg{
+    margin: 15px 0 15px 0 !important;
+}
+/* .navbar-brand { */
+    /*float: left;
+    height: 50px; */
+    /* padding: 0px 0px !important; */
+    /* font-size: 18px;
+    line-height: 20px; */
+    /* opacity: 0.5; */
+/* } */
+/* .navbar-toggle {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.nav {
+    background-color: transparent !important;
+} */
+
+
+/*#########################################
+CONTACT FORM FROM CODEPEN.IO
+ ######################################## */
+
+ @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-font-smoothing: antialiased;
+   -moz-font-smoothing: antialiased;
+   -o-font-smoothing: antialiased;
+   font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+ }
+ 
+ .fontAll{
+    font-family: sans-serif, 'Titillium web', "Helvetica Neue", 
+                 "Roboto", Helvetica, Arial,  verdana, Tahoma, 
+                 Geneva, Arial !important;
+ }
+ 
+ .contactz input[type="password"],
+ .contactz input[type="text"],
+ .contactz input[type="email"],
+ .contactz input[type="tel"],
+ .contactz input[type="url"],
+ .contactz textarea,
+ .contactz input[type="submit"] {
+   font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+ }
+ 
+ .contactz {
+   background: #F9F9F9;
+   padding: 25px;
+   margin: 100px 0;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   font-family: "Roboto", Helvetica, Arial, sans-serif;
+   font-weight: 100;
+   font-size: 12px;
+   line-height: 30px;
+   color: #777;
+ }
+ 
+ .contactz h3 {
+   display: block;
+   font-size: 30px;
+   font-weight: 300;
+   margin-bottom: 10px;
+ }
+ 
+ .contactz h4 {
+   margin: 5px 0 15px;
+   display: block;
+   font-size: 13px;
+   font-weight: 400;
+ }
+ 
+ fieldset {
+   border: medium none !important;
+   margin: 0 0 10px;
+   min-width: 100%;
+   padding: 0;
+   width: 100%;
+ }
+ 
+ .contactz input[type="password"],
+ .contactz input[type="text"],
+ .contactz input[type="email"],
+ .contactz input[type="tel"],
+ .contactz input[type="url"],
+ .contactz textarea {
+   width: 100%;
+   border: 1px solid #ccc;
+   background: #FFF;
+   margin: 0 0 5px;
+   padding: 10px;
+ }
+ 
+ .contactz input[type="password"]:hover,
+ .contactz input[type="text"]:hover,
+ .contactz input[type="email"]:hover,
+ .contactz input[type="tel"]:hover,
+ .contactz input[type="url"]:hover,
+ .contactz textarea:hover {
+   -webkit-transition: border-color 0.3s ease-in-out;
+   -moz-transition: border-color 0.3s ease-in-out;
+   transition: border-color 0.3s ease-in-out;
+   border: 1px solid #aaa;
+ }
+ 
+ .contactz textarea {
+   height: 100px;
+   max-width: 100%;
+   /* resize: none; */
+ }
+ 
+ .contactz input[type="submit"] {
+   cursor: pointer;
+   width: 100%;
+   border: none;
+   background: rgb(48, 109, 221);
+   color: #FFF;
+   margin: 0 0 5px;
+   padding: 10px;
+   font-size: 15px;
+ }
+ 
+ .contactz input[type="submit"]:hover {
+   background: #43A047;
+   -webkit-transition: background 0.3s ease-in-out;
+   -moz-transition: background 0.3s ease-in-out;
+   transition: background-color 0.3s ease-in-out;
+ }
+ 
+ .contactz input[type="submit"]:active {
+   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+ }
+ 
+ .copyright {
+   text-align: center;
+ }
+ 
+ .contactz input:focus,
+ .contactz textarea:focus {
+   outline: 0;
+   border: 1px solid #aaa;
+ }
+ .navbar {
+     background-color: rgb(27, 24, 24) !important;
+     position: fixed !important;
+     top: 0;
+     left: 0;
+     right: 0;
+  } 
+  .push{
+    margin: 10% 0 5% 0 !important;
+  }
+  .push-top{
+    padding-top: 20% !important;
+  }
+  .ftco-navbar-light.scrolled {
+    background: rgb(230, 40, 182) !important;
+  }
+  .ftco-navbar-light.scrolled .nav-link {
+    color: #ffffff !important; 
+  }
