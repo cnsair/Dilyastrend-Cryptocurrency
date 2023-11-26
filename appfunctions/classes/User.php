@@ -181,8 +181,8 @@ class User
 			try
 			{
 				//FOR ONLINE
-				// $secretKey = "6Lc7V90ZAAAAALcijj9V-MZDNk73ZYW40vI3Uzcw";
-				// $siteKey = "6Lc7V90ZAAAAALMHx0B57jRl_LLQEgH8gCjH8T0A";
+				// $secretKey = "";
+				// $siteKey = "";
 
 				//FOR LOCALHOST
 				$secretKey = "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe";
@@ -213,11 +213,11 @@ class User
 			try
 			{
 				//REGISTER / SIGNIN / CHANGE PASSWORD / FORGOT PASSWORD
-				$pword_salt = "dilyasSalt"; //type 1
+				$pword_salt = "xxxxxxxx"; //type 1
 				//ALLOW USER - MEMBER
-				$allow_user_mem = md5('DILYASMEMBERS'); //type 2
+				$allow_user_mem = md5('XXXXXXMEMBERS'); //type 2
 				//ALLOW USER - ADMIN
-				$allow_user_adm = md5('SuperAdmin'); //type 3
+				$allow_user_adm = md5('XXXXXXAdmin'); //type 3
 	
 				if($type == 1)
 				{	return $pword_salt;
@@ -245,14 +245,14 @@ class User
 			try
 			{
 				//PUBLIC | SECRET | ENCRYPTION KEY - TEST
-				$publicKey = "FLWPUBK_TEST-c36080d7f8ed1262450e7bea7d7bf4d8-X"; //type 1
-				$secretKey = "FLWSECK_TEST-40d588f416750f17e2c479a248763f80-X"; //type 2
-				$encryptKey = "FLWSECK_TESTc8c7c3b5ebbf"; //type 3
+				$publicKey = ""; //type 1
+				$secretKey = ""; //type 2
+				$encryptKey = ""; //type 3
 
 				//PUBLIC | SECRET | ENCRYPTION KEY - ONLINE
-				// $publicKey = "FLWPUBK-0603f06b21f565e520ab5be9a3788ff8-X"; //type 1
-				// $secretKey = "FLWSECK-655cc27b1df6db1a4ea4bc60a0302a65-X"; //type 2
-				// $encryptKey = "655cc27b1df6923e0a8f8d81"; //type 3
+				// $publicKey = ""; //type 1
+				// $secretKey = ""; //type 2
+				// $encryptKey = ""; //type 3
 	
 				if($type == 1)
 				{	return $publicKey;
@@ -280,14 +280,14 @@ class User
 			try
 			{
 				//PUBLIC | SECRET | ENCRYPTION KEY - TEST
-				$publicKey = "pk_test_d99d224481c9d04e8c33331c27d22d9d5eaffbc0"; //type 1
-				$secretKey = "sk_test_69819d55117989102bf790a6dc5ac96d498e0d06"; //type 2
+				$publicKey = "pk_test_d99d"; //type 1
+				$secretKey = "sk_test_6981"; //type 2
 				//$encryptKey = "FLWSECK_TESTc8c7c3b5ebbf"; //type 3
 
 				//PUBLIC | SECRET | ENCRYPTION KEY - LIVE MODE
-				// $publicKey = "pk_live_356488db3221a205b790debb24b1814a30562199"; //type 1
-				// $secretKey = "sk_live_76b19f33e306546973331dcd8190225dbc21af58"; //type 2
-				// $encryptKey = "655cc27b1df6923e0a8f8d81"; //type 3
+				// $publicKey = ""; //type 1
+				// $secretKey = ""; //type 2
+				// $encryptKey = ""; //type 3
 	
 				if($type == 1)
 				{	return $publicKey;
